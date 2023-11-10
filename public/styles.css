@@ -1,0 +1,41 @@
+/* styles.css no diretório public */
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f4f4f4;
+    margin: 0;
+    padding: 20px;
+}
+
+h1 {
+    color: #333;
+}
+
+.produto-lista, .carrinho-lista {
+    list-style-type: none;
+    padding: 0;
+}
+
+.produto-item, .carrinho-item {
+    background-color: #fff;
+    border: 1px solid #ddd;
+    padding: 10px;
+    margin-bottom: 5px;
+}
+
+.adicionar-link, .carrinho-link, .continuar-comprando {
+    color: #1a0dab;
+    text-decoration: none;
+}
+
+.adicionar-link:hover, .carrinho-link:hover, .continuar-comprando:hover {
+    text-decoration: underline;
+}
+
+.total {
+    font-weight: bold;
+}
+
+.ultimo-adicionado {
+    font-style: italic;
+    color: #555;
+}
